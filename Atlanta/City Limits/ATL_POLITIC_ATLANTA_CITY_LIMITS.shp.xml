@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>[required]</origin>
+				<pubdate>[required]</pubdate>
+				<title>Atlanta City Limits</title>
+				<geoform>vector digital data</geoform>
+				<onlink> http://gis.atlantaga.gov/wmsconnector/com.esri.wms.Esrimap?Request=GetMap&amp;Version=1.1.1&amp;Format=image/png&amp;ServiceName=Master&amp;SRS=EPSG:2240&amp;BBOX=2175000,1326000,2260000,1416000&amp;WIDTH=500&amp;HEIGHT=500&amp;Layers=Atlanta City Limits</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set represents the current municipal bounds of the City of Atlanta.  The data were derived from the municipal and county boundary data provided by Fulton County and are now maintained byt he City of Atlanta Department of Planning and Community Development.  The boundary includes all known annexations to date; however, minor errors may exist.</abstract>
+			<purpose>An accurate representation of the municipal bounds is critical for the determination of areas for which city services are provided; for establishing the limits of planning activities; and as a general reference layer for many mapping products.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2007/03/12</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>Atlanta GIS Catalog</themekt>
+				<themekey>Boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+				<themekey>003</themekey>
+			</theme>
+			<place>
+				<placekt>Geographic Names Information System</placekt>
+				<placekey>atlanta</placekey>
+				<placekey>fulton</placekey>
+				<placekey>georgia</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None, but user liability statement should be read and understood.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Atlanta, Bureau of Planning, GIS Division</cntorg>
+					<cntper>Steve Williams</cntper>
+				</cntorgp>
+				<cntpos>GIS Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>55 Trinity Ave SW</address>
+					<city>Atlanta</city>
+					<state>Georgia</state>
+					<postal>30303</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>404-330-637</cntvoice>
+				<cntemail>stewilliams@atlantaga.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native><spdom><bounding><westbc>-84.551584</westbc><eastbc>-84.289460</eastbc><northbc>33.887014</northbc><southbc>33.647487</southbc></bounding></spdom><crossref><citeinfo><title>Fulton County Municipal Boundaries</title></citeinfo></crossref></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>The municipal bounds data were derived from the Fulton County Municipal Bounds data maintained by Fulton County GIS as of 2007/03/12.  Research showed that on annexation inthe Dekalb County portion of the City of Atlanta was omitted in the county data.  This annexation was added to the Atlanta City Limits data and Fulton County was notified of the discrepancy.</procdesc>
+			</procstep>
+			<procstep><procdesc>Metadata imported.</procdesc><srcused>J:\docs\metadata\vector.xml</srcused><date>20070308</date><time>11362800</time></procstep></lineage>
+		<complete>These data are believed to be compete and accurate; however, minor annexations may have been excluded.  Several discrepancies relative other municipal bounds data need to be researched and resolved.</complete></dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>1</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000328</absres>
+						<ordres>0.000328</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn>Transverse Mercator</mapprojn><transmer><sfctrmer>0.999900</sfctrmer><longcm>-84.166667</longcm><latprjo>30.000000</latprjo><feast>2296583.333333</feast><fnorth>0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef><altsys><altenc>Explicit elevation coordinate included with horizontal coordinates</altenc><altres>1.000000</altres></altsys></vertdef></spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Atlanta, Bureau of Planning, GIS Division</cntorg>
+					<cntper>Steve Williams</cntper>
+				</cntorgp>
+				<cntpos>GIS Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>55 Trinity Ave SW</address>
+					<city>Atlanta</city>
+					<state>Georgia</state>
+					<postal>30303</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>404-330-6637</cntvoice>
+				<cntemail>stewilliams@atlantaga.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Atlanta City Limits</resdesc>
+		<distliab>Data Disclaimer: The City of Atlanta has made known to User, and User acknowledges notice by the City that this Data contains known errors and inconsistencies. The City of Atlanta in no way ensures, represents or warrants the accuracy and/or reliability of the information-mapping product and Data. The information-mapping product and Data are provided to User in an "as is" format and condition. User expressly assumes all risks and liabilities which may arise from the information-mapping product and Data furnished to the User by the City. Use of this information-mapping product and Data in no way entitles the User or any of its officers, employees, designees, assignees or agents or employees to recover any damages whatsoever from the City of Atlanta or its officers, employees, or other representatives, for unreliable or inaccurate information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20100329</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Atlanta, Bureau of Planning, GIS Division</cntorg>
+					<cntper>Steve Williams</cntper>
+				</cntorgp>
+				<cntpos>GIS Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>55 Trinity Ave SW</address>
+					<city>Atlanta</city>
+					<state>Georgia</state>
+					<postal>30303</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>404-330-6637</cntvoice>
+				<cntemail>stewilliams@atlantaga.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc></metainfo>
+	<dataIdInfo><envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode value="en"/></dataLang><idCitation><resTitle>GIS.POLITIC_ATLANTA_CITY_LIMITS_ST</resTitle><presForm><PresFormCd value="005"/></presForm></idCitation><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL>2179771.748976</westBL><eastBL>2259215.601899</eastBL><northBL>1413971.000114</northBL><southBL>1327009.391885</southBL><exTypeCode>1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL>-84.551584</westBL><eastBL>-84.28946</eastBL><northBL>33.887014</northBL><southBL>33.647487</southBL><exTypeCode>1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode value="en"/></mdLang><mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer>DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdHrLvName>dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc>002</orDesc><linkage>Server=ditgisdb01.atlanta.local; Service=5157; User=gis; Version=SDE.DEFAULT</linkage><protocol>ArcSDE Connection</protocol></onLineSrc><transSize>0.044</transSize></distorTran><distorFormat><formatName>SDE Feature Class</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode>NAD_1983_StatePlane_Georgia_West_FIPS_1002_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001"/></topLvl><geometObjs><geoObjTyp><GeoObjTypCd value="001"/></geoObjTyp><geoObjCnt>1</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><eainfo><detailed><attr><attrlabl>SQ_MILES</attrlabl></attr><attr><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>ID</attrlabl></attr><enttyp><enttypl>Atlanta City Limits</enttypl></enttyp><attr><attrlabl>ACRES</attrlabl></attr><attr><attrlabl>LABEL</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>SHAPE.AREA</attrlabl></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>Id</attrlabl></attr><attr><attrlabl>acres</attrlabl></attr><attr><attrlabl>SHAPE.LEN</attrlabl></attr></detailed></eainfo><mdDateSt>20100329</mdDateSt><Esri><CreaDate>20121127</CreaDate><CreaTime>17004900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri></metadata>
